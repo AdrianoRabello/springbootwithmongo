@@ -48,6 +48,10 @@ public class Book {
         return title;
     }
 
+    public UUID getUuid() {
+        return uuid;
+    }
+
     public static class Builder {
         private String name;
         private String title;
